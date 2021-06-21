@@ -63,10 +63,10 @@ footer {
     text-transform: uppercase;
     color: #000000;
 }
-#footer-input input {
+#footer-input {
 width: 250px;
-height: 14px;
-border: 1.70602px solid #000000;
+height: 29px;
+border: 1.70602px solid #0A66C2;
 box-sizing: border-box;
 font-family: Poppins;
 font-style: normal;
@@ -123,7 +123,7 @@ display: block;
         font-weight: 400;
         font-size: 14.33px;
     }
-    #footer-input input {
+    #footer-input {
     width: 160px;
     padding: .8rem;
     height: 6px;
@@ -156,7 +156,7 @@ display: block;
         font-size: 12.8553px;
     } 
     .footer-top-left-top {
-        max-width: 250px;
+        width: 130px;
     } 
     .footer-top-left-top {
         font-size: 11px;
@@ -177,11 +177,12 @@ display: block;
         font-weight: 500;
         font-size: 8.33px;
     }
-    #footer-input input {
-    width: 100px;
-    padding: .5rem;
-    height: 0px;
-    font-size: 6px;
+    #footer-input {
+        width: 100px;
+        height: 14px;
+        padding: .5rem;
+        height: 0px;
+        font-size: 6px;
     }
     .sub  {
         margin: .51rem 0;
