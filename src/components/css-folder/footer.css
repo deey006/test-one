@@ -124,7 +124,8 @@ display: block;
         font-size: 14.33px;
     }
     #footer-input {
-    width: 160px;
+    width: 100px;
+    height: 16px;
     padding: .8rem;
     height: 6px;
     font-size: 8px;
@@ -178,7 +179,7 @@ display: block;
         font-size: 8.33px;
     }
     #footer-input {
-        width: 100px;
+        width: 80px;
         height: 14px;
         padding: .5rem;
         height: 0px;
