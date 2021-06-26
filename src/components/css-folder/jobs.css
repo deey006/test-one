@@ -49,8 +49,7 @@
 .form-field{
     width: 80%;
 }
-.form-field input{
-    background: #FFFFFF;
+.keyword {
     border: 3px solid #03A4FF;
     box-sizing: border-box;
     border-radius: 15px;
@@ -60,11 +59,9 @@
     font-size: 19px;
     line-height: 28px;
     color: #C4C4C4;
-}
-.keyword {
     width: 100%;
     padding: .6rem 2rem;
-    background-color: rgba(3, 164, 255, 0.1);
+    background: rgba(3, 164, 255, 0.1);
 }
 .location {
     display: flex;
@@ -75,6 +72,15 @@
     height: auto;   
 }
 .location input {
+    border: 3px solid #03A4FF;
+    box-sizing: border-box;
+    border-radius: 15px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 28px;
+    color: #C4C4C4;
     width: 60%;
     padding: .6rem 2rem;
     background-color: rgba(3, 164, 255, 0.1);
@@ -236,9 +242,8 @@ label{
       height: 160px;
     }
     .keyword {
-        width: 80%;
+        width: 100%;
         padding: .6rem 2rem;
-        background-color: rgba(3, 164, 255, 0.1);
     }
     
     #image{
@@ -376,4 +381,5 @@ label{
        padding: auto;
        font-size: 11px;
    }
+   
 }

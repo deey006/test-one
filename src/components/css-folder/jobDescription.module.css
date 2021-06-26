@@ -1,0 +1,619 @@
+body {
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+.sectionOne{
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url(./bg-1.png);
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2rem;
+  }
+  .form {
+      width: 85%;
+      background-color: white;
+      height: 5rem ;
+      padding-top: 1.5rem;
+      padding-left: 30px;
+      box-shadow: 0px 7px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+  } 
+  .keyword, .searchTown {
+      outline: none;
+      border: none;
+    width: 37%;
+    padding: 0.7rem 1rem;
+    margin-right: 20px;
+    background: rgba(3, 164, 255, 0.1);
+    border-radius: 10px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16.2442px;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 0.42);
+
+  }
+
+  .form button {
+    outline: none;
+    border: none;
+    width: 13%;
+    padding: 0.5rem;
+    background: #006BFF;
+    border-radius: 10px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18.7708px;
+     line-height: 23px;
+     color: #FFFFFF;
+  }
+  .jobTitle, .description, .aboutCompany, .aboutBlue {
+      width: 87%;
+      display: flex;
+      justify-content: space-between;
+      margin: auto;
+      justify-self: center;
+  }
+  .description {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+  .titleText h3 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 51px;
+    color: #000000;
+  }
+  .titleText span {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 31px;
+    color: #000000;    
+  }
+  .titleText p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 31px;
+    color: #000000;
+    padding-top: 1px;
+margin-top: 1px;
+
+  }
+  .dot {
+    margin: 0 20px;
+  }
+  .titleButtons button:nth-child(1) {
+    border-radius: 7px;
+    padding: .7rem 1.7rem;
+    outline: none;
+    border: none;
+  }
+  .titleButtons button:nth-child(2) {
+    border-radius: 7px;
+    padding: .7rem 1.2rem;
+    outline: none;
+    border: none;
+    margin-left: 15px;
+  }
+  .titleButtons button:hover {
+    background-color: #006BFF;
+  }
+  .titleButtons button:active {
+    transform: translateY(2px);
+  }
+  .titleRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .titleRight img {
+    width: 40%;
+    height: 40%;
+    align-self: flex-end;
+  }
+  .titleRight p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 31px;
+    color: #000000;
+  }
+  .descriptionLeft{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 58%;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 19px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+  }
+  .leftTop p, .leftMiddle p {
+    font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 31px;
+  color: #000000;
+  }
+  .leftButtonOne h5, .leftButtonTwo h5 {
+    margin-top: 0;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    color: #000000;
+
+  }
+  .leftButtonOne p, .leftButtonTwo p {
+    margin-bottom: 6px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    color: #000000;
+  }
+  .descriptionRight {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 35%;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 19px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+
+  }
+  .rightTop p:nth-child(1) {
+    margin-bottom: 6px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    color: #000000;
+  }
+  .rightTop p:nth-child(2) {
+    margin-top: 0;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+  }
+  .rightMiddleSecond h5 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    margin-bottom: 3px;
+  }
+  .weekDays p {
+    margin-top: 0;
+    margin-right: 30px;
+    display: inline;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 40px;
+
+    color: #16161D;
+  }
+  .blueBg {
+    background-color: #006BFF;
+  }
+  .rightMiddleThird h5, .rightBottom h5{
+    margin-bottom: 4px;
+  }
+  .rightMiddleThird p, .rightBottom p {
+    margin-top: 0;
+  }
+  .aboutCompany {
+    padding: 0 1rem;
+    flex-direction: column;
+    box-shadow: 0px 4px 19px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+  }
+  .aboutTop {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .aboutTopLeft {
+    display: flex;
+    justify-content: space-between;
+  }
+  .aboutTopLeftImg {
+    margin-right: 1rem;
+  }
+  .aboutHeader h2 {
+    font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 34px;
+line-height: 51px;
+
+color: #000000;
+  }
+  .aboutTopRightTop{
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  .aboutTopRightBottom p{
+    margin-top: 1px;
+    padding-top: 0 ;
+  }
+  .aboutTopRightTop h4, .aboutTopRightTop p {
+    display: inline;
+  }
+  .aboutTopRightTop h4{
+    font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 19px;
+line-height: 37px;
+
+color: #000000;
+  }
+  .aboutTopRightTop p{
+    margin-left: 8px;
+    background: #FBBC04;
+border-radius: 10px;
+font-size: 9px;
+padding: 5px 8px;
+
+  }
+  .boutTopRight button {
+    border: 3px solid #0A66C2;
+  border-radius: 11.2625px;
+  padding: .4rem 2.2rem;
+  background-color: transparent;
+  }
+  .aboutMiddle p {
+    font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-weight: 600;
+font-size: 15px;
+color: #000000;
+  }
+  .aboutBottom p {
+    font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 28px;
+
+color: #000000;
+
+  }
+  .aboutMore {
+    margin: 2rem 0 1rem 0;
+    display: flex;
+    justify-content: center;
+  }
+  .aboutMore p {
+    width: 70%;
+    border-top: 3px solid #006BFF;
+    text-align: center;
+    padding-top: .8rem;
+    font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 30px;
+color: #0A66C2;
+  }
+  .aboutBlue {
+    box-sizing: border-box;
+    background: #006BFF;
+border-radius: 10px;
+display: flex;
+margin: auto;
+justify-self: center;
+align-items: center;
+width: 90%;
+margin-top: 4rem;
+height: 501px;
+padding: 0 2rem;
+  }
+  .aboutBottomTop {
+    width: 50%;
+  }
+  .aboutBottomTop h3 {
+    font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 48px;
+
+color: #FFFFFF;
+
+  }
+  .aboutBottomTop p {
+    font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 27px;
+
+color: #FFFFFF;
+
+  }
+  .aboutBottomLeft img {
+    width: 49%;
+    height: 49%;
+  }
+  .aboutBottomRight {
+    width: 50%;
+    display: flex;
+  }
+  .aboutBottomRight img {
+    width: 49%;
+    height: 70%;
+    display: inline;
+  }
+  .aboutBottomRight img:nth-child(1) {
+    position: relative;
+    left: 0rem;
+  }
+  .aboutBottomRight img:nth-child(2) {
+    position: relative;
+    left: 0rem;
+  }
+  .breaker {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 5rem 0;
+  }
+  .breaker div {
+    width: 75%;
+    height: 3px;
+    background-color: #0A66C2;
+  }
+  @media screen and (max-width:1024px) {
+    .sectionOne{
+      height: 17vh;
+    }
+
+  }
+  @media screen and (max-width:768px) {
+    .form {
+      width: 90%;
+      height: 4rem;
+    }
+    .searchTown{
+      width: 20%;
+    }  
+    .keyword {
+      width: 40%;
+      margin-bottom: 5px;
+    }
+    .description {
+      flex-direction: column;
+      box-shadow: 9px 4px 19px rgba(0, 0, 0, 0.25);
+    }
+    .jobTitle {
+      flex-direction: column;
+      width: 80%;
+    }
+    .titleRight{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    .titleRight img {
+      width: 5%;
+      height: 5%;
+      align-self: center;
+    }
+    .titleRight p{
+      font-weight: 500;
+      font-size: 15px;
+    }
+    .descriptionLeft{
+      width: 98%;
+      box-shadow: none;
+    }
+  
+    .descriptionRight {
+      width: 98%;
+      margin-top: .3rem;
+      box-shadow: none;
+    }
+  
+  }
+  @media screen and (max-width:460px) {
+    .sectionOne{
+      height: 20vh;
+    }
+    .form {
+      padding-left: 10px;
+    }
+    .keyword, .searchTown {
+    padding: 0rem 1rem;
+    margin-right: 20px;
+    font-size: 9.2442px;
+    line-height: 1px;
+    height: 27px;
+    margin-right: 10px;
+  }
+  .keyword {
+    width: 82%;
+    margin-bottom: 5px;
+  }
+  .searchTown{
+    width: 60%;
+  }  
+
+  .form button {
+    /* height: 16px; */
+    width: 20%;
+    padding: .001rem;
+    font-weight: 200;
+    font-size: 8.7708px;
+  }
+  .titleText h3 {
+    font-weight: 400;
+    font-size: 24px;
+  }
+  .titleText span {
+    font-size: 14px;
+  }
+  .titleText p {
+    font-size: 16px;
+
+  }
+  .dot {
+    margin: 0 10px;
+  }
+  .titleButtons button:nth-child(1) {
+    border-radius: 7px;
+    padding: .4rem 1rem;
+    outline: none;
+    border: none;
+  }
+  .titleButtons button:nth-child(2) {
+    border-radius: 7px;
+    padding: .4rem 1rem;
+    outline: none;
+    border: none;
+    margin-left: 15px;
+  }
+  .leftTop p, .leftMiddle p {
+  font-size: 14px;
+  }
+  .aboutHeader h2 {
+font-size: 20px;
+  }
+  .aboutTop {
+    flex-direction: column;
+  }
+  .boutTopRight button {
+    float: right;
+  padding: .2rem 1.6rem;
+  background-color: transparent;
+  margin-right: 2.6rem;
+  margin-top: -1.5rem;
+  }
+  .aboutMiddle p {
+    font-size: 11px;
+  }
+  .aboutBottomTop h3 {
+font-weight: 40;
+font-size: 22px;
+line-height: 28px;
+  }
+  .aboutBottomTop p {
+    font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 20px;
+  }
+  .aboutBottomLeft img {
+    width: 100%;
+    height: 69%;
+  }
+  .aboutBottomRight img {
+    width: 59%;
+    height: 100%;
+    display: inline;
+  }
+  .aboutBottomRight img:nth-child(1) {
+    position: relative;
+    left: 0rem;
+  }
+  .aboutBottomRight img:nth-child(2) {
+    position: relative;
+    left: 0rem;
+  }
+
+  }
+  @media screen and (max-width:360px) {
+    .titleText h3 {
+      font-weight: 400;
+      font-size: 16px;
+    }
+    .titleText span {
+      font-size: 12px;
+    }
+    .titleText p {
+      font-size: 10px;
+  
+    }
+    .dot {
+      margin: 0 6px;
+    }
+    .titleButtons button:nth-child(1) {
+      border-radius: 7px;
+      padding: .4rem 1rem;
+    }
+    .titleButtons button:nth-child(2) {
+      border-radius: 7px;
+      padding: .4rem 1rem;
+      margin-left: 15px;
+    }
+    .leftTop p, .leftMiddle p {
+    font-size: 14px;
+    }
+    .aboutHeader h2 {
+  font-size: 17px;
+    }
+    .aboutTop {
+      flex-direction: column;
+    }
+    .boutTopRight button {
+    margin-right: .2rem;
+    margin-top: -1.5rem;
+    }
+    .aboutMiddle p {
+      font-size: 10px;
+    }
+    .aboutBottomTop h3 {
+  font-weight: 40;
+  font-size: 17px;
+  line-height: 28px;
+    }
+    .aboutBottomTop p {
+      font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 20px;
+    }
+    .aboutBottomLeft img {
+      width: 100%;
+      height: 69%;
+    }
+    .aboutBottomRight img {
+      width: 59%;
+      height: 100%;
+      display: inline;
+    } .weekDays p {
+      font-size: 14px;
+    }
+    .rightTop p:nth-child(1) {
+      font-size: 16px;
+      color: #000000;
+    }
+    .rightTop p:nth-child(2) {
+      font-size: 14px;
+    }
+    .leftButtonOne p, .leftButtonTwo p {
+      font-size: 14px;
+    }
+  
+  }

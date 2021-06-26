@@ -1,0 +1,11 @@
+{
+    "emmet.showSuggestionsAsSnippets": true,
+    "emmet.syntaxProfiles": {
+    
+    },
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+      },
+      "emmet.triggerExpansionOnTab": true,
+      "editor.semanticTokenColorCustomizations": null
+}

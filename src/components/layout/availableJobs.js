@@ -1,4 +1,5 @@
 import React, {Component} from "react"
+import {Link} from 'react-router-dom'
 import '../css-folder/jobs.css'
 
 class AvailableJobs extends Component  {
@@ -43,7 +44,7 @@ class AvailableJobs extends Component  {
                     <div className="name">
                         <p>1 day ago</p>
                     </div>
-                    <button className="view-Offer">View Offer</button>
+                  <Link to='/job-info'> <button className="view-Offer">View Offer</button> </Link>
             </div>
             </div>
         )        
